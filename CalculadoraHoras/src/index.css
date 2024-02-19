@@ -1,0 +1,72 @@
+body{
+  background-color: black;
+  color: aliceblue;
+  font-family: clock;
+}
+
+h1{
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+}
+
+h2{
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+}
+
+.zeca{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: aliceblue;
+  width: 80vh;
+  height: 37vh;
+  margin: 0 auto;
+  display: 40vh;
+  border-radius: 10px;
+  border-color: red;
+  border-style: double;
+  
+}
+
+#horario {
+  color: red;
+text-align: center;
+font-family: Clock;
+font-size: 4vh;
+}
+
+input{
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  height: 3vh;
+}
+
+button{
+  margin-top: 10px;
+  border-radius: 5px;
+  height: 4vh;
+  background-color: white;
+}
+
+button:hover{
+  border-radius: 5px;
+  height: 5vh;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  border-style:dashed;
+}
+
+@font-face {
+  font-family: Clock;
+  src: local(Barrio), url(alarm_clock/alarm\ clock.ttf)
+}
+
+#r{
+  display: block;
+  text-align: center;
+  font-size: 3.5vh;
+  
+}
